@@ -57,20 +57,3 @@ mu=np.linspace(np.min(x),1.5*np.max(x),1000)
 plt.plot(mu,post(mu,x,sigma))
 
 
-# In[87]:
-
-
-mu_ideal,sigma_max=maximo_sigma(mu,L(x,mu,sigma))
-
-
-# In[85]:
-
-
-mu_max
-
-
-# In[ ]:
-
-
-
-
